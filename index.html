@@ -6,8 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="container">
+      <div class="play"><button class="start">Start Game</button></div>
+      <h1 class="rules">Best to 5</h1>
+      <div class="buttons">
+        <button class="rock choice">Rock</button>
+        <button class="paper choice">Paper</button>
+        <button class="scissors choice">Scissors</button>
+      </div>
+      <div class="results">
+        <div class="scores">
+          <div class="player-score">
+            <h1>Player Score:</h1>
+            <p id="pscore">0</p>
+          </div>
+          <div class="computer-score">
+            <h1>Computer Score:</h1>
+            <p id="cscore">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>
